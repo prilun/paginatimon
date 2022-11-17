@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Michino</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--link bstrp-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!--WOW JS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!--css-->
+    <link rel="stylesheet" href="../css/style.css">
+    <!---tipos de letras-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+</head>
+
+<body class="bodyFotos">
+    <header>
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">Mis fotos</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                    aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Timon</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./fotos.html">Fotos</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">Informacion Personal</a>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="./aboutme.html">Acerca de mi</a></li>
+                                    <li><a class="dropdown-item" href="./hobbies.html">Hobbies</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="./suscripcion.html">Suscripcion</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="fotos_parrafo">
+            <h2 class="wow animate__animated animate__flash">galeria de fotos</h2>
+        </div>
+        <section class="fotos_contenedor">
+          <div class="fotos_contenedor_timon">
+            <img src="../img/IMG-20180913-WA0001.jpeg" alt="foto1">
+            <img src="../img/IMG_0324.JPG" alt="foto2">
+            <img src="../img/IMG_0326.JPG" alt="foto3">
+            <img src="../img/IMG_0333.JPG" alt="foto4">
+            <img src="../img/IMG_0339.JPG" alt="foto5">
+          </div>
+            <div class="fotos_contenedor_timon">
+              <img src="../img/IMG_0341.JPG" alt="foto6">
+              <img src="../img/IMG_0353.JPG" alt="foto7">
+              <img src="../img/IMG_0358.JPG" alt="foto8">
+              <img src="../img/IMG_0843.JPG" alt="foto9">
+              <img src="../img/IMG_0845.JPG" alt="foto10">
+            </div>
+           <div class="fotos_contenedor_timon">
+            <img src="../img/IMG_0868.JPG" alt="foto11">
+            <img src="../img/IMG_0884.JPG"alt="foto12">
+            <img src="../img/IMG_0906.JPG" alt="foto13">
+            <img src="../img/IMG_20180121_135616892.jpg" alt="foto14">
+            <img src="../img/IMG_20180212_191055161.jpg" alt="foto15">
+           </div>
+          <div class="fotos_contenedor_timon">
+             <img src="../img/durmiendo.JPG" alt="foto16">
+            <img src="../img/IMG_2331.JPG" alt="foto17">
+            <img src="../img/IMG_2340.JPG" alt="foto18">
+            <img src="../img/IMG_2611.JPG" alt="foto19">
+            <img src="../img/IMG_2700.JPG" alt="foto20">
+          </div>
+        </section>
+    </main>
+    <!--bstrp y wow-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+    <script src="./js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+</body>
